@@ -107,6 +107,7 @@ body {
 }
 .header__list li {
   /* padding: 15px; */
+  border-right: 1px solid var(--black);
 }
 .header__list a {
   color: var(--white);
@@ -117,6 +118,10 @@ body {
   font-size: 60px;
   font-weight: 200;
   margin: 0;
+}
+
+.test {
+  background: linear-gradient(to left, lightgreen 50%, transparent 50%);
 }
 
 /**
