@@ -1,0 +1,21 @@
+:root {
+  --black: #000;
+  --blue: #08c;
+  --grey: #6e6e6e;
+  --white: #fff;
+}
+
+/**
+*
+* Helpers
+*
+*/
+.text-center {
+  text-align: center;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text--uppercase {
+  text-transform: uppercase;
+}
