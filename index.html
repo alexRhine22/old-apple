@@ -4,31 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Apple | Clone</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="/"><img src="" alt="apple-logo" /></a>
-          </li>
-          <li><a href="#none">Store</a></li>
-          <li><a href="#none">Mac</a></li>
-          <li><a href="#none">IPod</a></li>
-          <li><a href="#none">IPhone</a></li>
-          <li><a href="#none">IPad</a></li>
-          <li><a href="#none">ITunes</a></li>
-          <li><a href="#none">Support</a></li>
-          <li><input type="text" name="" id="" /></li>
-        </ul>
-      </nav>
-    </header>
+    <main class="container">
+      <div class="intro">
+        <header class="header text--md">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li>
+                <a href="/"><img src="" alt="apple-logo" /></a>
+              </li>
+              <li><a href="#none">Store</a></li>
+              <li><a href="#none">Mac</a></li>
+              <li><a href="#none">IPod</a></li>
+              <li><a href="#none">IPhone</a></li>
+              <li><a href="#none">IPad</a></li>
+              <li><a href="#none">ITunes</a></li>
+              <li><a href="#none">Support</a></li>
+              <li><input type="text" name="" id="" /></li>
+            </ul>
+          </nav>
+        </header>
 
-    <footer>
-      <p>
+        <div class="intro__content text-center">
+          <h1 class="header__title">What will your verse be?</h1>
+          <p>
+            Everyone has something to share. See how people are using iPad in
+            their unique ways to add to the world’s story.
+          </p>
+          <a href="#none"
+            >Watch the "Your Verse" film and explore the stories</a
+          >
+        </div>
+      </div>
+
+      <div class="image-row container">
+        <a class="image-row__link" href="#none">
+          <img
+            class="image-row__image"
+            src="images/promo_iphone5s_2x.jpg"
+            alt="iphone 5s"
+          />
+        </a>
+        <a class="image-row__link" href="#none">
+          <img
+            class="image-row__image"
+            src="images/promo_iphone5c_2x.jpg"
+            alt="iphone 5c"
+          />
+        </a>
+        <a class="image-row__link" href="#none">
+          <img
+            class="image-row__image"
+            src="images/promo_30_years_2x.jpg"
+            alt="30 years"
+          />
+        </a>
+        <a class="image-row__link" href="#none">
+          <img
+            class="image-row__image"
+            src="images/promo_supplier_responsibility_2x.jpg"
+            alt="supplier responsibility"
+          />
+        </a>
+      </div>
+    </main>
+
+    <footer class="footer text--sm">
+      <p class="footer__description">
         Shop the
         <a href="#none">Apple Online Store</a>
         (1-800-MY-APPLE), visit an
@@ -37,8 +83,8 @@
         <a href="#none">reseller</a>.
       </p>
 
-      <nav>
-        <ul>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
           <li><a href="#none">Site Map</a></li>
           <li><a href="#none">Hot News</a></li>
           <li><a href="#none">RSS Feeds</a></li>
@@ -46,18 +92,21 @@
           <li><a href="#none">Environment</a></li>
           <li><a href="#none">Job Opportunities</a></li>
           <li><a href="#none">Contact Us</a></li>
+          <li>
+            <a href="#none"><img src="" alt="a" /></a>
+          </li>
         </ul>
       </nav>
-    </footer>
 
-    <div>
       <p>
         Copyright © 2014 Apple Inc. All rights reserved.
       </p>
-      <ul>
-        <li><a href="#none"></a>Terms of Use</li>
-        <li><a href="#none"></a>Privacy Policy</li>
-      </ul>
-    </div>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li><a href="#none">Terms of Use</a></li>
+          <li><a href="#none">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
