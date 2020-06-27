@@ -43,6 +43,12 @@ body {
 .text--md {
   font-size: 14px;
 }
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
 
 /**
 *
@@ -62,29 +68,34 @@ body {
 .intro__content {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   max-width: 870px;
 }
 .intro__content h1 {
-  margin: 0 0 0.5rem 0;
   font-family: "Source Sans Pro";
   font-size: 65px;
+  margin: 0 0 0.5rem 0;
 }
 .intro__content p {
   font-family: "Source Sans Pro";
-  font-weight: 300;
   font-size: 34px;
+  font-weight: 300;
   margin: 0 0 1.7rem 0;
 }
 .intro__content a {
-  font-family: "Source Sans Pro";
-  font-weight: 200;
   color: var(--white);
+  font-family: "Source Sans Pro";
   font-size: 28px;
+  font-weight: 200;
   text-decoration: none;
 }
 .intro__content a:hover {
   text-decoration: underline;
+}
+@media (min-height: 1250px) {
+  .intro {
+    height: 78vh;
+  }
 }
 
 /**
@@ -102,7 +113,6 @@ body {
 }
 .header__list {
   align-items: center;
-  /* background-color: cadetblue; */
   background: linear-gradient(to top, #858585 50%, #6e6e6e 50%);
   border-radius: 4px;
   display: flex;
@@ -113,12 +123,22 @@ body {
   padding: 0;
 }
 .header__list li {
-  
+  align-items: center;
+  border-right: 1px solid var(--black);
+  display: flex;
+  flex: 0 0 calc(86.5% / 8);
+  height: 38px;
+  justify-content: center;
+}
+.header__list li:last-child {
+  border-right: none;
+  flex: 0 0 calc(100% / 7.5);
+  transition-duration: 0.4s;
 }
 .header__list a {
   color: var(--white);
-  text-shadow: 0 1px 1px var(--black);
   text-decoration: none;
+  text-shadow: 0 1px 1px var(--black);
 }
 .header__title {
   font-family: "Lucida Sans Unicode";
@@ -127,11 +147,22 @@ body {
   margin: 0;
 }
 .header__list input {
-  width: 106px;
-  border-radius: 12px;
   background-color: transparent;
+  border-radius: 12px;
+  width: 50%;
+  transition-duration: 0.4s;
+}
+.header__list input:hover {
+  background-color: white;
+  border-radius: 12px;
+  flex: 0 0 calc(100% / 7.5);
+  width: 106px;
 }
 
+.header a img {
+  display: block;
+  height: 23px;
+}
 /**
 *
 * image row
@@ -162,6 +193,10 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 980px;
+}
+.footer a img {
+  display: block;
+  width: 16px;
 }
 .footer p,
 .footer ul {
