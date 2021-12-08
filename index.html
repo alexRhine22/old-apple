@@ -2,126 +2,119 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
-    <!-- LINK TO FONT -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap"
-      rel="stylesheet"
-    />
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="icon" type="image/png" href="/images/logo.png" />
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Apple | Clone</title>
+    <title>Apple</title>
   </head>
   <body>
-    <main class="container">
-      <div class="intro">
-        <header class="header text--md">
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li>
-                <a href="/"><img src="/images/logo.png" alt="apple-logo" /></a>
-              </li>
-              <li><a href="#none">Store</a></li>
-              <li><a href="#none">Mac</a></li>
-              <li><a href="#none">iPod</a></li>
-              <li><a href="#none">iPhone</a></li>
-              <li><a href="#none">iPad</a></li>
-              <li><a href="#none">iTunes</a></li>
-              <li><a href="#none">Support</a></li>
-              <li><input type="text" name="" id="" /></li>
-            </ul>
-          </nav>
-        </header>
-
-        <div class="intro__content text-center">
-          <h1 class="header__title">What will your verse be?</h1>
-          <p>
-            Everyone has something to share. See how people are using iPad in
-            their unique ways to add to the world’s story.
-          </p>
-          <div class="d-flex justify-content-center align-items-center">
-            <a href="#none">
-              Watch the "Your Verse" film and explore the stories
-            </a>
-            <img
-              style="cursor: pointer; padding-left: 10px;"
-              src="/images/play-button.png"
-              alt="play button"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="image-row container">
-        <a class="image-row__link" href="#none">
-          <img
-            class="image-row__image"
-            src="images/promo_iphone5s_2x.jpg"
-            alt="iphone 5s"
-          />
-        </a>
-        <a class="image-row__link" href="#none">
-          <img
-            class="image-row__image"
-            src="images/promo_iphone5c_2x.jpg"
-            alt="iphone 5c"
-          />
-        </a>
-        <a class="image-row__link" href="#none">
-          <img
-            class="image-row__image"
-            src="images/promo_30_years_2x.jpg"
-            alt="30 years"
-          />
-        </a>
-        <a class="image-row__link" href="#none">
-          <img
-            class="image-row__image"
-            src="images/promo_supplier_responsibility_2x.jpg"
-            alt="supplier responsibility"
-          />
-        </a>
-      </div>
-    </main>
-
-    <footer class="footer text--sm">
-      <p class="footer__description">
-        Shop the
-        <a href="#none">Apple Online Store</a>
-        (1-800-MY-APPLE), visit an
-        <a href="#none">Apple Retail Store</a>, or find a
-        <a href="#none">reseller</a>.
-      </p>
-
-      <nav class="footer__nav">
-        <ul class="footer__nav-list">
-          <li><a href="#none">Site Map</a></li>
-          <li><a href="#none">Hot News</a></li>
-          <li><a href="#none">RSS Feeds</a></li>
-          <li><a href="#none">Media Info</a></li>
-          <li><a href="#none">Environment</a></li>
-          <li><a href="#none">Job Opportunities</a></li>
-          <li><a href="#none">Contact Us</a></li>
-          <li>
-            <a href="#none"><img src="/images/usa.png" alt="a" /></a>
+    <header class="header">
+      <nav class="container">
+        <ul class="header__list">
+          <li class="header__li">
+            <a class="header__link" href="#"></a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">Store</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">Mac</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">Ipod</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">iPhone</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">iPad</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">iTunes</a>
+          </li>
+          <li class="header__li">
+            <a class="header__link" href="#">Support</a>
           </li>
         </ul>
       </nav>
+    </header>
 
-      <p>
+    <main>
+      <section class="container--lg main-section"></section>
+
+      <section class="container--lg">
+        <ul class="promo-list">
+          <li class="promo-list__li">
+            <a href="">
+              <img
+                src="/images/promo_iphone5s_2x.jpg"
+                alt="iPhone 5s. Forward thinking."
+              />
+            </a>
+          </li>
+          <li class="promo-list__li">
+            <a href="">
+              <img
+                src="/images/promo_iphone5c_2x.jpg"
+                alt="iPhone 5c. For the colorful."
+              />
+            </a>
+          </li>
+          <li class="promo-list__li">
+            <a href="">
+              <img
+                src="/images/promo_30_years_2x.jpg"
+                alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac."
+              />
+            </a>
+          </li>
+          <li class="promo-list__li">
+            <a href="">
+              <img
+                src="/images/promo_supplier_responsibility_2x.jpg"
+                alt="Supplier Responsibility The latest results of our worldwide efforts."
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p class="footer__text">
+        Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an
+        <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.
+      </p>
+
+      <ul class="footer__list">
+        <li>
+          <a href="#">Site Map</a>
+        </li>
+        <li>
+          <a href="#">Hot News</a>
+        </li>
+        <li>
+          <a href="#"> RSS Feeds</a>
+        </li>
+        <li>
+          <a href="#"> Media Info</a>
+        </li>
+        <li>
+          <a href="#"> Environment</a>
+        </li>
+        <li>
+          <a href="#"> Job Opportunities</a>
+        </li>
+        <li>
+          <a href="#"> Contact Us</a>
+        </li>
+      </ul>
+
+      <p class="footer__text">
         Copyright © 2014 Apple Inc. All rights reserved.
       </p>
-      <nav class="footer__nav">
-        <ul class="footer__nav-list">
-          <li><a href="#none">Terms of Use</a></li>
-          <li><a href="#none">Privacy Policy</a></li>
-        </ul>
-      </nav>
     </footer>
   </body>
 </html>
